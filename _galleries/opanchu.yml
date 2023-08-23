@@ -1,7 +1,7 @@
 ---
 name: "opanchu"
 arts:
-# Column 1
+# Row 1
 - image: "images/galleries/opanchu/laidback.jpg"
   order: "1"
   title: "Laid Back"
