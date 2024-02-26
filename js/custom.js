@@ -164,7 +164,7 @@ function grid() {
 
 
 function openModal() {
-    document.getElementById('myModal').style.display = "block";
+    document.getElementById('myModal').style.display = "inline-block";
 }
 
 function closeModal() {
