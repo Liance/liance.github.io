@@ -163,5 +163,16 @@ function grid() {
 }
 
 
+function openModal() {
+    document.getElementById('myModal').style.display = "block";
+}
 
+function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+}
+
+function currentSlide(n) {
+    var imgSrc = "img/GE2015/11880568_930486166993397_97476180198491784_n.jpg";
+    document.getElementById('modalImg').src = imgSrc;
+}
 
