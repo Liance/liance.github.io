@@ -162,6 +162,8 @@ function grid() {
 
 }
 
-
+function updateModalSrc(src) {
+    document.getElementById('modalImg').src = src;
+}
 
 
