@@ -171,8 +171,7 @@ function closeModal() {
     document.getElementById('myModal').style.display = "none";
 }
 
-function currentSlide(n) {
-    var imgSrc = "img/GE2015/11880568_930486166993397_97476180198491784_n.jpg";
+function currentSlide(imgSrc) {
     document.getElementById('modalImg').src = imgSrc;
 }
 
