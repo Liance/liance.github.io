@@ -163,17 +163,5 @@ function grid() {
 }
 
 
-function openModal() {
-    document.getElementById('myModal').style.display = "inline-block";
-    document.getElementById('myModal').style.position = "absolute";
-    document.getElementById('myModal').style.top = window.scrollY + "px";
-}
 
-function closeModal() {
-    document.getElementById('myModal').style.display = "none";
-}
-
-function currentSlide(imgSrc) {
-    document.getElementById('modalImg').src = imgSrc;
-}
 
