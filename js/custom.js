@@ -164,9 +164,8 @@ function grid() {
 
 
 function openModal() {
-    var modal = document.getElementById('myModal');
-    modal.style.display = "block";
-    modal.style.top = window.scrollY + "px";
+    document.getElementById('myModal').style.display = "block";
+    document.getElementById('myModal').style.top = window.scrollY + "px";
 }
 
 function closeModal() {
